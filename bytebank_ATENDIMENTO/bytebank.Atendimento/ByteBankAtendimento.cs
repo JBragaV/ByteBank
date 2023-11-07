@@ -4,7 +4,7 @@ using bytebank_ATENDIMENTO.bytebank.Exceptions;
 namespace bytebank_ATENDIMENTO.bytebank.Atendimento
 {
     #nullable disable
-    internal  class ByteBankAtendimento
+    internal class ByteBankAtendimento
     {
 
         private List<ContaCorrente> _listaDeContas = new List<ContaCorrente>(){
