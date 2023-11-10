@@ -1,8 +1,13 @@
 ﻿namespace bytebank.Modelos.Conta
 {
     public class ContaCorrente:IComparable<ContaCorrente>
-    {     
-       
+    {
+
+        public ContaCorrente()
+        {
+            
+        }
+
         public Cliente Titular{get;set;}
         public string Nome_Agencia{ get; set; }
 
